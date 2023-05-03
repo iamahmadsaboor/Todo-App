@@ -112,7 +112,7 @@ Array Handling
 
 13. Write a js program to count total number of duplicate elements in an array.
 
-14. Write a js program to delete all duplicate elements from an array.
+14. Write a js program to delete all duplicate elements froTm an array.
 
 15. Write a js program to merge two array to third array.
 
@@ -129,5 +129,5 @@ Array Handling
 21. Write a js program to left rotate an array.
 
 22. Write a js program to right rotate an array.
-Submit:
+
 
