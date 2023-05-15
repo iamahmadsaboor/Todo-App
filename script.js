@@ -481,8 +481,8 @@ console.log(arrFourteenOdd.sort());
 
 // 18. Write a js program to search an element in an array.
 let arrFifteen = [2, 4, 5, 6, 8, 90, 12, 42];
-let finding= Number.parseInt(prompt("Enter value to find"))
-let searchElement = arrFifteen.find((x) => x === finding);
+let findings= Number.parseInt(prompt("Enter value to find"))
+let searchElement = arrFifteen.find((x) => x === findings);
 
 // 19. Write a js program to sort array elements in ascending or descending order.
 let arrSixteen = [2, 4, 5, 6, 8, 90, 12, 42];
