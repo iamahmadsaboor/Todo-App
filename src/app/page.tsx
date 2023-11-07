@@ -54,7 +54,7 @@ export default function Home() {
             </div>
             <div className="relative mb-4">
               <label className="leading-7 text-sm text-gray-600">
-                Todo Text
+                Todo Details
               </label>
               <input
                 value={todo.description}
@@ -69,7 +69,7 @@ export default function Home() {
               className="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg w-fit"
               onClick={addToDo}
             >
-              Add Todo
+              &#43; Add Todo
             </button>
           </div>
         </div>
