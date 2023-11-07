@@ -16,15 +16,19 @@ const header = (props: Props) => {
               alt="logo"
               className="border rounded-2xl w-[3em] h-[3em]"
             />
-            <span className="ml-3 text-xl">Todo</span>
+            <span className="ml-3 text-xl">Todo&apos;s</span>
           </a>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <Link href={"/"} className="mr-5 hover:text-gray-900">
               Home
             </Link>
-            <Link href="#" className="mr-5 hover:text-gray-900">
+            <a
+              href="https://iamahmadsaboor.vercel.app/"
+              className="mr-5 hover:text-gray-900"
+              target="_blank"
+            >
               About
-            </Link>
+            </a>
             <Link href="/Todo" className="mr-5 hover:text-gray-900">
               My Todos
             </Link>

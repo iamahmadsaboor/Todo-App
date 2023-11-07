@@ -2,6 +2,7 @@
 import { log } from "console";
 import Image from "next/image";
 import { useState } from "react";
+import Todo from "./Todo/page";
 
 export default function Home() {
   const [todo, settodo] = useState({ title: "", description: "" });
