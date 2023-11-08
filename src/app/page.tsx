@@ -1,5 +1,4 @@
 "use client";
-import { log } from "console";
 import Image from "next/image";
 import { useState } from "react";
 import Todo from "./Todo/page";
@@ -12,14 +11,13 @@ export default function Home() {
       let todosJson: any = JSON.parse(todos);
 
       if (
-        ((todosJson = todosJson.filter((value: { title: string }) => {
+        (todosJson = todosJson.filter((value: { title: string }) => {
           return value.title !== todo.title;
-        })),
-        length > 0)
+        })).length > 0
       ) {
         alert("Todo already exists");
       } else {
-        alert("Todo Added");
+        alert("Todo Added in MyTodos");
         todosJson.push(todo);
         localStorage.setItem("todos", JSON.stringify(todosJson));
         settodo({ title: "", description: "" });
